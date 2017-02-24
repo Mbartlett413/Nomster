@@ -11,10 +11,15 @@ body {
 }
 
 
-.navbar{
+.navbar {
   background: image_url('outline.png');
   -webkit-box-shadow:0px 1px 3px 0 #2a2a2a;
 }
+    .navbar-inverse .navbar-brand {
+      color: #FAC564;
+      font-family: 'intro_rust_gbase_2_line';
+      font-size: 26px;
+    }
 
 .booyah-box{
   -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
