@@ -2,7 +2,7 @@
 
 
 .apple_pagination {
-  background: #f1f1f1;
+  background: image_url('outline.png');
   border: 1px solid #e5e5e5;
   text-align: center;
   padding: 1em;
@@ -13,6 +13,7 @@
     color: #aaaaaa; }
   .apple_pagination .current {
     font-style: normal;
+    font-family: 'intro_rust_gbase_2_line';
     font-weight: bold;
     background-color: #bebebe;
     display: inline-block;
