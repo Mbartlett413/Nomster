@@ -12,7 +12,7 @@ class PlacesController < ApplicationController
       Place.create(place_params)
       redirect_to root_path
   end
-
+#Yo, don't go down there, its private...
   private
 
   def place_params

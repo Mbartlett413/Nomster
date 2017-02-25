@@ -42,6 +42,8 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'will_paginate', '~> 3.1.0'
 #Simple Forms Ya Diggggggggg
 gem 'simple_form'
+#FONT AWESOME YALLL
+gem "font-awesome-rails"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
