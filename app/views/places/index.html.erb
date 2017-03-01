@@ -6,9 +6,11 @@
 
     <% if place.user.present? %>
       <small><%= place.user.email %></small>
+      <% end %>
 </div>
 
 <% end %>
+
 <div class ="apple_pagination">
 <%= will_paginate @places, container: false %>
 </div>
