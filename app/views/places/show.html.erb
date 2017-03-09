@@ -75,9 +75,8 @@
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
          <%= f.submit "Add a Comment", class: 'btn btn-warning' %>
          </div>
-        <% end %>
-        
-      </div>
+       </div>
+      <% end %>
     </div>
   </div>
   <br />
@@ -116,13 +115,14 @@
     <% end %>
     </div>
   </div>
-</div>    
+</div>   
 
+<% if photo.present? %>
 <% @place.photos.each do |photo| %>
   <%= image_tag photo.picture %>
   <%= photo.caption %>
 <% end %> 
-
+<% end %>
 
 
 
