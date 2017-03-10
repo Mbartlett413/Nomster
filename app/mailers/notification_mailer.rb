@@ -3,7 +3,6 @@ class NotificationMailer < ApplicationMailer
 
 
   def comment_added
-      mail(to: "masesb13@gmail.com",
+      mail(to: "Mbartlett413@me.com",
         subject: "A comment has been added to your place!")
   end
-end
