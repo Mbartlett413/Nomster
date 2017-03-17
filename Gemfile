@@ -53,7 +53,7 @@ gem "figaro"
 # Dis is for DA FO TOE
 gem 'carrierwave', '~> 1.0'
 # Amazon s3
-gem 'fog'
+gem "fog"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
