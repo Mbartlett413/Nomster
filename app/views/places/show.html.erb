@@ -130,11 +130,17 @@
 </div>   
 <div class="clear"></div>
 
-
-  <% @place.photos.each do |photo| %>
-    <%= image_tag photo.picture %>
+<div class="row">
+<div class="col-10 offset-1">
+    <blockquote>
+  <% @place.photos.each do |photo|%>
+    <%= image_tag photo.picture, class: 'img-fluid' %>
     <%= photo.caption %>
   <% end %> 
+  </blockquote>
+  </div>
+
+  </div>
 
 
 
